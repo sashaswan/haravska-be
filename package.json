@@ -1,0 +1,63 @@
+{
+  "name": "haravska",
+  "version": "1.0.0",
+  "description": "RESTful API v1.0 for Haravska",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "forever": "node forever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/sajanara/haravska-be.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "engines": {
+    "node": "6.9.4"
+  },
+  "author": "Pavlo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sajanara/haravska-be#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "compression": "^1.8.0",
+    "connect-busboy": "1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "email-templates": "^12.0.2",
+    "es6": "0.0.7",
+    "escape-regexp": "0.0.1",
+    "escape-string-regexp": "^5.0.0",
+    "express": "^4.21.2",
+    "forever-monitor": "^3.0.3",
+    "fs": "^0.0.1-security",
+    "image-size": "^2.0.1",
+    "jade": "^1.11.0",
+    "jimp": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.12.1",
+    "mongoose-autopopulate": "^1.1.0",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "nunjucks": "^3.2.4",
+    "path": "^0.12.7",
+    "prerender-node": "^3.8.0",
+    "q": "^1.5.1",
+    "xml2json": "^0.12.0"
+  }
+}
